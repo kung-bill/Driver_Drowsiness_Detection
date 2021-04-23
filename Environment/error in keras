@@ -1,0 +1,15 @@
+解決 Error
+
+Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above.
+
+
+在執行jupyter notebook的terminal先執行
+
+export TF_FORCE_GPU_ALLOW_GROWTH=true
+
+接著在打開jupyter notebook
+jupyter notebook
+
+
+reference:
+https://paulrohan.medium.com/tensorflow-issue-while-model-training-failed-to-get-convolution-algorithm-9a0a94f9552
